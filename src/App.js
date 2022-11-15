@@ -5,6 +5,9 @@ import {
 import { 
   NavBar 
 } from './ui-components';
+import { 
+  Activities 
+} from './ui-components';
 import {
   withAuthenticator
 } from '@aws-amplify/ui-react';
@@ -23,6 +26,7 @@ function App({ user, signOut}) {
       <NavBar width={"100%"} overrides={navbarOverrides} />
 
       <header className="App-header">
+  
         <UserCollin 
           overrideItems={({ item, index }) => ({
             overrides: {

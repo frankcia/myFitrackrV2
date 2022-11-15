@@ -9,6 +9,6 @@ export { default as SideBar } from "./SideBar";
 export { default as NavBar } from "./NavBar";
 export { default as UserCollin } from "./UserCollin";
 export { default as MyIcon } from "./MyIcon";
-export { default as Footer } from "./Footer";
+export { default as Activities } from "./Activities";
 export { default as UserProfile } from "./UserProfile";
 export { default as studioTheme } from "./studioTheme";
