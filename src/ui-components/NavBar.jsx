@@ -6,10 +6,11 @@
 
 /* eslint-disable */
 import * as React from "react";
-import { getOverrideProps } from "@aws-amplify/ui-react/internal";
+import { getOverrideProps, useAuth } from "@aws-amplify/ui-react/internal";
 import { Button, Flex, Image, Text } from "@aws-amplify/ui-react";
 export default function NavBar(props) {
   const { overrides, ...rest } = props;
+  const authAttributes = useAuth().user?.attributes ?? {};
   return (
     <Flex
       gap="20px"
@@ -115,13 +116,13 @@ export default function NavBar(props) {
         <Flex
           gap="0"
           direction="column"
-          width="45px"
+          width="113px"
           height="38px"
           justifyContent="center"
           alignItems="flex-start"
           shrink="0"
           position="relative"
-          padding="10px 27px 10px 0px"
+          padding="10px 27px 10px 24px"
           {...getOverrideProps(overrides, "Frame 420")}
         >
           <Flex
@@ -163,7 +164,7 @@ export default function NavBar(props) {
               direction="column"
               justifyContent="unset"
               letterSpacing="0px"
-              width="76px"
+              width="170px"
               height="unset"
               gap="unset"
               alignItems="unset"
@@ -171,8 +172,8 @@ export default function NavBar(props) {
               position="relative"
               padding="0px 0px 0px 0px"
               whiteSpace="pre-wrap"
-              children="username"
-              {...getOverrideProps(overrides, "username")}
+              children={authAttributes["name"]}
+              {...getOverrideProps(overrides, "First Last")}
             ></Text>
           </Flex>
         </Flex>

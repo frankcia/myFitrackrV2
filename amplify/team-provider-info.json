@@ -10,6 +10,11 @@
       "StackName": "amplify-myfitrackrv2-staging-165547",
       "StackId": "arn:aws:cloudformation:us-east-1:617050463594:stack/amplify-myfitrackrv2-staging-165547/5ab42d00-6506-11ed-aab4-0ab3ebcb9145",
       "AmplifyAppId": "d1snv6sluma0ux"
+    },
+    "categories": {
+      "auth": {
+        "myfitrackrv2": {}
+      }
     }
   }
 }
