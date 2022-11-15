@@ -1,3 +1,6 @@
+# myfitrackrv2
+myFitrackrV2 - AWS Tech U Capston 2022 - #ProjectEast
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
