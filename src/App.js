@@ -31,7 +31,7 @@ function App({ user, signOut}) {
           overrideItems={({ item, index }) => ({
             overrides: {
               updateButton: { color: "black", 
-              onClick: () => alert("Calculate Total")},
+              onClick: () => alert("RELAX! You haven't done anything.")},
               
             },
           })}
