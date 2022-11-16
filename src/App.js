@@ -1,12 +1,9 @@
 import './App.css';
 import { 
-  UserCollin, UserProfile 
+  UserCollin
 } from './ui-components';
 import { 
   NavBar 
-} from './ui-components';
-import { 
-  Activities 
 } from './ui-components';
 import {
   withAuthenticator
