@@ -39,11 +39,11 @@ export default function NavBar(props) {
         {...getOverrideProps(overrides, "Logo")}
       >
         <Text
-          fontFamily="Inter"
+          fontFamily="Arial"
           fontSize="24px"
           fontWeight="700"
           color="rgba(0,0,0,1)"
-          lineHeight="29.045454025268555px"
+          lineHeight="27.59765625px"
           textAlign="left"
           display="block"
           direction="column"
@@ -73,11 +73,11 @@ export default function NavBar(props) {
         {...getOverrideProps(overrides, "Frame 321")}
       >
         <Text
-          fontFamily="Inter"
+          fontFamily="Arial"
           fontSize="24px"
           fontWeight="700"
           color="rgba(0,0,0,1)"
-          lineHeight="29.045454025268555px"
+          lineHeight="27.59765625px"
           textAlign="center"
           display="block"
           direction="column"
@@ -104,8 +104,8 @@ export default function NavBar(props) {
           shrink="0"
           position="relative"
           border="3px SOLID rgba(255,255,255,1)"
-          borderRadius="20px"
-          padding="3px 9px 3px 9px"
+          borderRadius="23px"
+          padding="6px 12px 6px 12px"
           backgroundColor="rgba(0,0,0,1)"
           size="small"
           isDisabled={false}
@@ -154,9 +154,9 @@ export default function NavBar(props) {
               {...getOverrideProps(overrides, "image")}
             ></Image>
             <Text
-              fontFamily="Inter"
+              fontFamily="Arial"
               fontSize="15px"
-              fontWeight="400"
+              fontWeight="700"
               color="rgba(0,0,0,1)"
               lineHeight="24px"
               textAlign="center"
