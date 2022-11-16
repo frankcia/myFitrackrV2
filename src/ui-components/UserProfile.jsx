@@ -10,7 +10,7 @@ import {
   getOverrideProps,
   useNavigateAction,
 } from "@aws-amplify/ui-react/internal";
-import { Button, Flex, Icon, Image, Text, View } from "@aws-amplify/ui-react";
+import { Button, Flex, Image, Text, View } from "@aws-amplify/ui-react";
 export default function UserProfile(props) {
   const { myfitrackrv2DB, overrides, ...rest } = props;
   const refreshButtonOnClick = useNavigateAction({ type: "reload" });
@@ -69,7 +69,7 @@ export default function UserProfile(props) {
           padding="0px 0px 0px 0px"
           objectFit="cover"
           src="https://media-exp1.licdn.com/dms/image/C5603AQHok7i_GJfMfA/profile-displayphoto-shrink_400_400/0/1637507803194?e=1674086400&v=beta&t=GPKYUgOHNnnohVwPu_RD2ZRs7Mjbh55tRxkZ2j232hY"
-          {...getOverrideProps(overrides, "image")}
+          {...getOverrideProps(overrides, "image29766900")}
         ></Image>
         <Flex
           gap="8px"
@@ -102,8 +102,8 @@ export default function UserProfile(props) {
             position="relative"
             padding="0px 0px 0px 0px"
             whiteSpace="pre-wrap"
-            children="@cvandersx"
-            {...getOverrideProps(overrides, "@cvandersx")}
+            children="@cvanderx"
+            {...getOverrideProps(overrides, "alias")}
           ></Text>
           <Text
             fontFamily="Inter"
@@ -124,8 +124,8 @@ export default function UserProfile(props) {
             position="relative"
             padding="0px 0px 0px 0px"
             whiteSpace="pre-wrap"
-            children="Collin Vadersommen"
-            {...getOverrideProps(overrides, "Collin Vadersommen")}
+            children="Collin Vandersommen"
+            {...getOverrideProps(overrides, "name")}
           ></Text>
         </Flex>
         <Flex
@@ -437,159 +437,22 @@ export default function UserProfile(props) {
           children="Last activity - Yesterday 10:35 AM"
           {...getOverrideProps(overrides, "Last activity - Yesterday 10:35 AM")}
         ></Text>
-        <Icon
-          width="120px"
-          height="120px"
-          viewBox={{ minX: 0, minY: 0, width: 120, height: 120 }}
-          paths={[
-            {
-              d: "M110 60C110 87.6142 87.6142 110 60 110L60 130C98.6599 130 130 98.6599 130 60L110 60ZM60 110C32.3858 110 10 87.6142 10 60L-10 60C-10 98.6599 21.3401 130 60 130L60 110ZM10 60C10 32.3858 32.3858 10 60 10L60 -10C21.3401 -10 -10 21.3401 -10 60L10 60ZM60 10C87.6142 10 110 32.3858 110 60L130 60C130 21.3401 98.6599 -10 60 -10L60 10Z",
-              stroke: "rgba(255,153,0,1)",
-              fillRule: "nonzero",
-              strokeWidth: 10,
-            },
-          ]}
+        <View
+          width="130px"
+          height="130px"
           display="block"
           gap="unset"
           alignItems="unset"
           justifyContent="unset"
           position="absolute"
-          top="43px"
-          left="552px"
-          {...getOverrideProps(overrides, "Ellipse 4")}
-        ></Icon>
-        <Text
-          fontFamily="Inter"
-          fontSize="40px"
-          fontWeight="700"
-          color="rgba(255,255,255,1)"
-          lineHeight="24px"
-          textAlign="right"
-          display="block"
-          direction="column"
-          justifyContent="unset"
-          letterSpacing="0.25px"
-          width="unset"
-          height="unset"
-          gap="unset"
-          alignItems="unset"
-          position="absolute"
-          top="91px"
-          left="567px"
+          top="38px"
+          left="27px"
+          border="5px SOLID rgba(255,153,0,1)"
+          borderRadius="165px"
           padding="0px 0px 0px 0px"
-          whiteSpace="pre-wrap"
-          children="7:54"
-          {...getOverrideProps(overrides, "7:54")}
-        ></Text>
-        <Icon
-          width="120px"
-          height="120px"
-          viewBox={{ minX: 0, minY: 0, width: 120, height: 120 }}
-          paths={[
-            {
-              d: "M110 60C110 87.6142 87.6142 110 60 110L60 130C98.6599 130 130 98.6599 130 60L110 60ZM60 110C32.3858 110 10 87.6142 10 60L-10 60C-10 98.6599 21.3401 130 60 130L60 110ZM10 60C10 32.3858 32.3858 10 60 10L60 -10C21.3401 -10 -10 21.3401 -10 60L10 60ZM60 10C87.6142 10 110 32.3858 110 60L130 60C130 21.3401 98.6599 -10 60 -10L60 10Z",
-              stroke: "rgba(255,153,0,1)",
-              fillRule: "nonzero",
-              strokeWidth: 10,
-            },
-          ]}
-          display="block"
-          gap="unset"
-          alignItems="unset"
-          justifyContent="unset"
-          position="absolute"
-          top="43px"
-          left="322px"
-          {...getOverrideProps(overrides, "Ellipse 3")}
-        ></Icon>
-        <Text
-          fontFamily="Inter"
-          fontSize="40px"
-          fontWeight="700"
-          color="rgba(255,255,255,1)"
-          lineHeight="24px"
-          textAlign="right"
-          display="block"
-          direction="column"
-          justifyContent="unset"
-          letterSpacing="0.25px"
-          width="unset"
-          height="unset"
-          gap="unset"
-          alignItems="unset"
-          position="absolute"
-          top="91px"
-          left="342px"
-          padding="0px 0px 0px 0px"
-          whiteSpace="pre-wrap"
-          children="623"
-          {...getOverrideProps(overrides, "623")}
-        ></Text>
-        <Icon
-          width="120px"
-          height="120px"
-          viewBox={{ minX: 0, minY: 0, width: 120, height: 120 }}
-          paths={[
-            {
-              d: "M110 60C110 87.6142 87.6142 110 60 110L60 130C98.6599 130 130 98.6599 130 60L110 60ZM60 110C32.3858 110 10 87.6142 10 60L-10 60C-10 98.6599 21.3401 130 60 130L60 110ZM10 60C10 32.3858 32.3858 10 60 10L60 -10C21.3401 -10 -10 21.3401 -10 60L10 60ZM60 10C87.6142 10 110 32.3858 110 60L130 60C130 21.3401 98.6599 -10 60 -10L60 10Z",
-              stroke: "rgba(255,153,0,1)",
-              fillRule: "nonzero",
-              strokeWidth: 10,
-            },
-          ]}
-          display="block"
-          gap="unset"
-          alignItems="unset"
-          justifyContent="unset"
-          position="absolute"
-          top="43px"
-          left="177px"
-          {...getOverrideProps(overrides, "Ellipse 2")}
-        ></Icon>
-        <Text
-          fontFamily="Inter"
-          fontSize="40px"
-          fontWeight="700"
-          color="rgba(255,255,255,1)"
-          lineHeight="24px"
-          textAlign="right"
-          display="block"
-          direction="column"
-          justifyContent="unset"
-          letterSpacing="0.25px"
-          width="unset"
-          height="unset"
-          gap="unset"
-          alignItems="unset"
-          position="absolute"
-          top="91px"
-          left="215px"
-          padding="0px 0px 0px 0px"
-          whiteSpace="pre-wrap"
-          children="21"
-          {...getOverrideProps(overrides, "21")}
-        ></Text>
-        <Icon
-          width="120px"
-          height="120px"
-          viewBox={{ minX: 0, minY: 0, width: 120, height: 120 }}
-          paths={[
-            {
-              d: "M110 60C110 87.6142 87.6142 110 60 110L60 130C98.6599 130 130 98.6599 130 60L110 60ZM60 110C32.3858 110 10 87.6142 10 60L-10 60C-10 98.6599 21.3401 130 60 130L60 110ZM10 60C10 32.3858 32.3858 10 60 10L60 -10C21.3401 -10 -10 21.3401 -10 60L10 60ZM60 10C87.6142 10 110 32.3858 110 60L130 60C130 21.3401 98.6599 -10 60 -10L60 10Z",
-              stroke: "rgba(255,153,0,1)",
-              fillRule: "nonzero",
-              strokeWidth: 10,
-            },
-          ]}
-          display="block"
-          gap="unset"
-          alignItems="unset"
-          justifyContent="unset"
-          position="absolute"
-          top="43px"
-          left="34px"
-          {...getOverrideProps(overrides, "Ellipse 1")}
-        ></Icon>
+          src="https://www.fabioambrosi.it/wp-content/uploads/2022/07/Amazon-Prime-Abbonamenti.jpg"
+          {...getOverrideProps(overrides, "image35612466")}
+        ></View>
         <Text
           fontFamily="Inter"
           fontSize="40px"
@@ -612,6 +475,123 @@ export default function UserProfile(props) {
           whiteSpace="pre-wrap"
           children="37"
           {...getOverrideProps(overrides, "37")}
+        ></Text>
+        <View
+          width="130px"
+          height="130px"
+          display="block"
+          gap="unset"
+          alignItems="unset"
+          justifyContent="unset"
+          position="absolute"
+          top="38px"
+          left="172px"
+          border="5px SOLID rgba(255,153,0,1)"
+          borderRadius="165px"
+          padding="0px 0px 0px 0px"
+          src="https://www.fabioambrosi.it/wp-content/uploads/2022/07/Amazon-Prime-Abbonamenti.jpg"
+          {...getOverrideProps(overrides, "image35612467")}
+        ></View>
+        <Text
+          fontFamily="Inter"
+          fontSize="40px"
+          fontWeight="700"
+          color="rgba(255,255,255,1)"
+          lineHeight="24px"
+          textAlign="right"
+          display="block"
+          direction="column"
+          justifyContent="unset"
+          letterSpacing="0.25px"
+          width="53px"
+          height="unset"
+          gap="unset"
+          alignItems="unset"
+          position="absolute"
+          top="91px"
+          left="210px"
+          padding="0px 0px 0px 0px"
+          whiteSpace="pre-wrap"
+          children="25"
+          {...getOverrideProps(overrides, "25")}
+        ></Text>
+        <View
+          width="130px"
+          height="130px"
+          display="block"
+          gap="unset"
+          alignItems="unset"
+          justifyContent="unset"
+          position="absolute"
+          top="38px"
+          left="317px"
+          border="5px SOLID rgba(255,153,0,1)"
+          borderRadius="165px"
+          padding="0px 0px 0px 0px"
+          src="https://www.fabioambrosi.it/wp-content/uploads/2022/07/Amazon-Prime-Abbonamenti.jpg"
+          {...getOverrideProps(overrides, "image35612469")}
+        ></View>
+        <Text
+          fontFamily="Inter"
+          fontSize="40px"
+          fontWeight="700"
+          color="rgba(255,255,255,1)"
+          lineHeight="24px"
+          textAlign="right"
+          display="block"
+          direction="column"
+          justifyContent="unset"
+          letterSpacing="0.25px"
+          width="74px"
+          height="unset"
+          gap="unset"
+          alignItems="unset"
+          position="absolute"
+          top="91px"
+          left="345px"
+          padding="0px 0px 0px 0px"
+          whiteSpace="pre-wrap"
+          children="619"
+          {...getOverrideProps(overrides, "619")}
+        ></Text>
+        <View
+          width="130px"
+          height="130px"
+          display="block"
+          gap="unset"
+          alignItems="unset"
+          justifyContent="unset"
+          position="absolute"
+          top="38px"
+          left="547px"
+          border="5px SOLID rgba(255,153,0,1)"
+          borderRadius="165px"
+          padding="0px 0px 0px 0px"
+          src="https://www.fabioambrosi.it/wp-content/uploads/2022/07/Amazon-Prime-Abbonamenti.jpg"
+          {...getOverrideProps(overrides, "image35612471")}
+        ></View>
+        <Text
+          fontFamily="Inter"
+          fontSize="40px"
+          fontWeight="700"
+          color="rgba(255,255,255,1)"
+          lineHeight="24px"
+          textAlign="right"
+          display="block"
+          direction="column"
+          justifyContent="unset"
+          letterSpacing="0.25px"
+          width="93px"
+          height="unset"
+          gap="unset"
+          alignItems="unset"
+          position="absolute"
+          top="91px"
+          left="565px"
+          padding="0px 0px 0px 0px"
+          whiteSpace="pre-wrap"
+          children="7:23"
+          {...getOverrideProps(overrides, "7:23")}
         ></Text>
       </View>
     </Flex>

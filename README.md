@@ -1,5 +1,5 @@
 # myfitrackrv2
-myFitrackrV2 - AWS Tech U Capston 2022 - #ProjectEast
+myFitrackrV2 - AWS Tech U Capstone 2022 - #ProjectEast
 
 # Getting Started with Create React App
 
