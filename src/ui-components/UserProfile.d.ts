@@ -5,8 +5,8 @@
  **************************************************************************/
 
 import * as React from "react";
-import { EscapeHatchProps } from "@aws-amplify/ui-react/internal";
 import { Myfitrackrv2DB } from "../models";
+import { EscapeHatchProps } from "@aws-amplify/ui-react/internal";
 import { FlexProps } from "@aws-amplify/ui-react";
 export declare type UserProfileProps = React.PropsWithChildren<Partial<FlexProps> & {
     myfitrackrv2DB?: Myfitrackrv2DB;

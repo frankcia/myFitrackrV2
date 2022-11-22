@@ -11,3 +11,5 @@ export { default as UserCollin } from "./UserCollin";
 export { default as MyIcon } from "./MyIcon";
 export { default as UserProfile } from "./UserProfile";
 export { default as studioTheme } from "./studioTheme";
+export { default as Myfitrackrv2DBCreateForm } from "./Myfitrackrv2DBCreateForm";
+export { default as Myfitrackrv2DBUpdateForm } from "./Myfitrackrv2DBUpdateForm";

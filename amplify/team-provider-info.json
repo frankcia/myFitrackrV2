@@ -14,6 +14,15 @@
     "categories": {
       "auth": {
         "myfitrackrv2": {}
+      },
+      "function": {
+        "myfitrackrfunction": {
+          "deploymentBucketName": "amplify-myfitrackrv2-staging-165547-deployment",
+          "s3Key": "amplify-builds/myfitrackrfunction-2b377a63415431782b4b-build.zip"
+        }
+      },
+      "api": {
+        "myfitrackrv2": {}
       }
     }
   }

@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "api": {
+      "myfitrackrv2": [
+        "Query",
+        "Mutation",
+        "Subscription"
+      ]
+    }
+  },
+  "lambdaLayers": []
+}

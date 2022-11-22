@@ -6,14 +6,10 @@
 
 /* eslint-disable */
 import * as React from "react";
-import {
-  getOverrideProps,
-  useNavigateAction,
-} from "@aws-amplify/ui-react/internal";
-import { Button, Flex, Image, Text, View } from "@aws-amplify/ui-react";
+import { getOverrideProps } from "@aws-amplify/ui-react/internal";
+import { Flex, Image, Text, View } from "@aws-amplify/ui-react";
 export default function UserProfile(props) {
   const { myfitrackrv2DB, overrides, ...rest } = props;
-  const refreshButtonOnClick = useNavigateAction({ type: "reload" });
   return (
     <Flex
       gap="10px"
@@ -62,7 +58,7 @@ export default function UserProfile(props) {
           alignItems="unset"
           justifyContent="unset"
           position="absolute"
-          top="48px"
+          top="100px"
           left="58px"
           border="5px SOLID rgba(255,153,0,1)"
           borderRadius="165px"
@@ -79,7 +75,7 @@ export default function UserProfile(props) {
           justifyContent="flex-start"
           alignItems="center"
           position="absolute"
-          top="237px"
+          top="289px"
           left="44px"
           padding="0px 0px 0px 0px"
           {...getOverrideProps(overrides, "Name")}
@@ -128,45 +124,6 @@ export default function UserProfile(props) {
             {...getOverrideProps(overrides, "name")}
           ></Text>
         </Flex>
-        <Button
-          display="flex"
-          gap="0"
-          direction="row"
-          width="250px"
-          height="unset"
-          justifyContent="center"
-          alignItems="center"
-          position="absolute"
-          top="366px"
-          left="18px"
-          backgroundColor="rgba(255,153,0,1)"
-          size="large"
-          isDisabled={false}
-          variation="primary"
-          children="Update"
-          {...getOverrideProps(overrides, "updateButton")}
-        ></Button>
-        <Button
-          display="flex"
-          gap="0"
-          direction="row"
-          width="250px"
-          height="unset"
-          justifyContent="center"
-          alignItems="center"
-          position="absolute"
-          top="436px"
-          left="18px"
-          backgroundColor="rgba(255,153,0,1)"
-          size="large"
-          isDisabled={false}
-          variation="primary"
-          children="Refresh"
-          onClick={() => {
-            refreshButtonOnClick();
-          }}
-          {...getOverrideProps(overrides, "refreshButton")}
-        ></Button>
         <View
           width="252px"
           height="27px"
@@ -213,7 +170,7 @@ export default function UserProfile(props) {
           gap="unset"
           alignItems="unset"
           position="absolute"
-          top="316px"
+          top="368px"
           left="122px"
           padding="0px 0px 0px 0px"
           whiteSpace="pre-wrap"
@@ -564,30 +521,30 @@ export default function UserProfile(props) {
           left="458px"
           padding="0px 0px 0px 0px"
           {...getOverrideProps(overrides, "Stats")}
-        >
-          <Text
-            fontFamily="Arial"
-            fontSize="64px"
-            fontWeight="700"
-            color="rgba(255,255,255,1)"
-            lineHeight="24px"
-            textAlign="center"
-            display="block"
-            direction="column"
-            justifyContent="unset"
-            letterSpacing="0.49px"
-            width="unset"
-            height="unset"
-            gap="unset"
-            alignItems="unset"
-            shrink="0"
-            position="relative"
-            padding="0px 0px 0px 0px"
-            whiteSpace="pre-wrap"
-            children={myfitrackrv2DB?.count}
-            {...getOverrideProps(overrides, "10")}
-          ></Text>
-        </Flex>
+        ></Flex>
+        <Text
+          fontFamily="Arial"
+          fontSize="64px"
+          fontWeight="700"
+          color="rgba(255,255,255,1)"
+          lineHeight="24px"
+          textAlign="center"
+          display="block"
+          direction="column"
+          justifyContent="unset"
+          letterSpacing="0.49px"
+          width="unset"
+          height="unset"
+          gap="unset"
+          alignItems="unset"
+          position="absolute"
+          top="316px"
+          left="476px"
+          padding="0px 0px 0px 0px"
+          whiteSpace="pre-wrap"
+          children={myfitrackrv2DB?.count}
+          {...getOverrideProps(overrides, "0")}
+        ></Text>
         <Text
           fontFamily="Arial"
           fontSize="48px"

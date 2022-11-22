@@ -94,18 +94,10 @@ export default function NavBar(props) {
           {...getOverrideProps(overrides, "#ProjectEast - Capstone 2022")}
         ></Text>
         <Button
-          display="flex"
-          gap="0"
-          direction="row"
-          width="unset"
-          height="unset"
-          justifyContent="center"
-          alignItems="center"
-          shrink="0"
-          position="relative"
           border="3px SOLID rgba(255,255,255,1)"
           borderRadius="23px"
           padding="6px 12px 6px 12px"
+          shrink="0"
           backgroundColor="rgba(0,0,0,1)"
           size="small"
           isDisabled={false}

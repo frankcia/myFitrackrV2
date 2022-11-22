@@ -5,6 +5,12 @@
         "project": {
             "ConflictHandler": "AUTOMERGE",
             "ConflictDetection": "VERSION"
+        },
+        "models": {
+            "Myfitrackrv2DB": {
+                "ConflictHandler": "AUTOMERGE",
+                "ConflictDetection": "VERSION"
+            }
         }
     }
 }
