@@ -35,5 +35,5 @@ export declare type Myfitrackrv2DBUpdateFormProps = React.PropsWithChildren<{
     onCancel?: () => void;
     onChange?: (fields: Myfitrackrv2DBUpdateFormInputValues) => Myfitrackrv2DBUpdateFormInputValues;
     onValidate?: Myfitrackrv2DBUpdateFormValidationValues;
-}>;
+} & React.CSSProperties>;
 export default function Myfitrackrv2DBUpdateForm(props: Myfitrackrv2DBUpdateFormProps): React.ReactElement;

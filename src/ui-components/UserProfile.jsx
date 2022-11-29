@@ -287,7 +287,7 @@ export default function UserProfile(props) {
             left="314px"
             padding="0px 0px 0px 0px"
             whiteSpace="pre-wrap"
-            children="Aquats"
+            children="Squats"
             {...getOverrideProps(overrides, "Aquats")}
           ></Text>
           <Text

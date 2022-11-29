@@ -33,5 +33,5 @@ export declare type Myfitrackrv2DBCreateFormProps = React.PropsWithChildren<{
     onCancel?: () => void;
     onChange?: (fields: Myfitrackrv2DBCreateFormInputValues) => Myfitrackrv2DBCreateFormInputValues;
     onValidate?: Myfitrackrv2DBCreateFormValidationValues;
-}>;
+} & React.CSSProperties>;
 export default function Myfitrackrv2DBCreateForm(props: Myfitrackrv2DBCreateFormProps): React.ReactElement;
