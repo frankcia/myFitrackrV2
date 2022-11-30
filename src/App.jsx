@@ -1,6 +1,6 @@
 /*
 Frankie Garcia - myFitrackr Function
-November 17, 2022 (Upd. 21Nov2022)
+November 17, 2022 (Upd. 30Nov2022)
 */ 
 
 import './App.css';

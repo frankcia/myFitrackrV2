@@ -64,7 +64,7 @@ export default function UserProfile(props) {
           borderRadius="165px"
           padding="0px 0px 0px 0px"
           objectFit="cover"
-          src="https://media-exp1.licdn.com/dms/image/C5603AQHok7i_GJfMfA/profile-displayphoto-shrink_400_400/0/1637507803194?e=1674086400&v=beta&t=GPKYUgOHNnnohVwPu_RD2ZRs7Mjbh55tRxkZ2j232hY"
+          src="https://media-exp1.licdn.com/dms/image/C4E03AQF-FnLs957Wfg/profile-displayphoto-shrink_400_400/0/1658344443473?e=1675296000&v=beta&t=ELjvoy4nR0fAps42o9v0z_J2RmytDlsZL-NMCKOYjjE"
           {...getOverrideProps(overrides, "image29766900")}
         ></Image>
         <Flex
@@ -75,8 +75,8 @@ export default function UserProfile(props) {
           justifyContent="flex-start"
           alignItems="center"
           position="absolute"
-          top="289px"
-          left="44px"
+          top="293px"
+          left="76px"
           padding="0px 0px 0px 0px"
           {...getOverrideProps(overrides, "Name")}
         >
@@ -98,7 +98,7 @@ export default function UserProfile(props) {
             position="relative"
             padding="0px 0px 0px 0px"
             whiteSpace="pre-wrap"
-            children="@cvanderx"
+            children="@frankcia"
             {...getOverrideProps(overrides, "alias")}
           ></Text>
           <Text
@@ -120,7 +120,7 @@ export default function UserProfile(props) {
             position="relative"
             padding="0px 0px 0px 0px"
             whiteSpace="pre-wrap"
-            children="Collin Vandersommen"
+            children="Frankie Garcia"
             {...getOverrideProps(overrides, "name")}
           ></Text>
         </Flex>
@@ -284,11 +284,11 @@ export default function UserProfile(props) {
             alignItems="unset"
             position="absolute"
             top="12px"
-            left="314px"
+            left="315px"
             padding="0px 0px 0px 0px"
             whiteSpace="pre-wrap"
             children="Squats"
-            {...getOverrideProps(overrides, "Aquats")}
+            {...getOverrideProps(overrides, "Squats")}
           ></Text>
           <Text
             fontFamily="Arial"
